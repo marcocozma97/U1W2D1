@@ -26,6 +26,15 @@ console.log(`Ciao, mi chiamo ${nome} ${cognome}`);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let a = '10';
+let b = '3';
+
+console.log(10 + 3);
+console.log(10 - 3);
+console.log(10 * 3);
+console.log(10 / 3);
+console.log(10 % 3);
+console.log(10 ** 3);
 
 /* ESERCIZIO 3 — Età nel tempo
    const annoNascita (scegli un anno).

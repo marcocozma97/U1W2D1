@@ -57,7 +57,7 @@ console.log(`Tra dieci anni avrò ${annoFuturo - annoNascita} anni.`);
 
 const annoPassato = 2021;
 
-console.log(`Cinque anni fa avevo ${annoPassato - annoNascita} anni.`)
+console.log(`Cinque anni fa avevo ${annoPassato - annoNascita} anni.`);
 
 
 /* ESERCIZIO 4 — Maggiorenne?
@@ -71,7 +71,7 @@ console.log(`Cinque anni fa avevo ${annoPassato - annoNascita} anni.`)
 let eta = 28;
 const etaConferma = 18;
 
-console.log(`Età: ${eta} - Maggiorenne: ${eta >= etaConferma}`)
+console.log(`Età: ${eta} - Maggiorenne: ${eta >= etaConferma}`);
 
 /* ESERCIZIO 5 — Tipo del valore
    Cinque variabili: una string, una number, una boolean, una null, una undefined.
@@ -82,20 +82,20 @@ console.log(`Età: ${eta} - Maggiorenne: ${eta >= etaConferma}`)
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let myString = 'Testo';
-console.log(`${myString} è di tipo ${typeof myString}.`)
+console.log(`${myString} è di tipo ${typeof myString}.`);
 
 let myNumber = 29;
-console.log(`${myNumber} è di tipo ${typeof myNumber}.`)
+console.log(`${myNumber} è di tipo ${typeof myNumber}.`);
 
 let myBoolean = true;
-console.log(`${myBoolean} è di tipo ${typeof myBoolean}.`)
+console.log(`${myBoolean} è di tipo ${typeof myBoolean}.`);
 
 // ritorna Object, perchè null viene considerato, come un sistema di valori non univoco (appunto object)
 let myNot = null;
-console.log(`${myNot} è di tipo ${typeof myNot}.`)
+console.log(`${myNot} è di tipo ${typeof myNot}.`);
 
 let myDontKnow;
-console.log(`${myDontKnow} è di tipo ${typeof myDontKnow}.`)
+console.log(`${myDontKnow} è di tipo ${typeof myDontKnow}.`);
 
 /* ESERCIZIO 6 — === vs ==
    numero = 5
@@ -111,8 +111,8 @@ let mySecondString = "5";
 
 // Il primo == indica se sono uguale o di valore o di tipo, quindi vero. Il secondo === indica se sono uguali sia di valore che ti tipo e quindi è giusto sia falso.
 
-console.log(mySecondNumber == mySecondString) //true
-console.log(mySecondNumber === mySecondString)  //false
+console.log(mySecondNumber == mySecondString); //true
+console.log(mySecondNumber === mySecondString);  //false
 
 
 /* ESERCIZIO 7 — Conversioni implicite
@@ -147,11 +147,9 @@ console.log("10" * "2");
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 let numberNew = 10;
-let numberPari = 2;
-
-console.log(numberNew % numberPari=== 0)  //true  - è effettivamente pari
+console.log(numberNew % 2 === 0)  //true  - è effettivamente pari
 console.log(numberNew % 3 === 0) // false - non è divisibile per 3
-console.log(numberNew % numberPari=== 0 && numberNew % 3 === 0) // false - perchè è pari, ma non è divisibile per 3
+console.log(numberNew % 2 === 0 && numberNew % 3 === 0) // false - perchè è pari, ma non è divisibile per 3
 
 
 /* --EXTRA-- ESERCIZIO 9 — Triangolo

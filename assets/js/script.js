@@ -128,7 +128,7 @@ console.log(mySecondNumber === mySecondString)  //false
 
 // "5" + 3 avrà come risultato 53
 // "5" - 3 avrà come risultato 2
-// true + 1 avrà come risultato NaN
+// true + 1 avrà come risultato 2
 // "10" * "2" avrà come risultato 20
 
 console.log("5" + 3);
@@ -145,6 +145,13 @@ console.log("10" * "2");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+let numberNew = 10;
+let numberPari = 2;
+
+console.log(numberNew % numberPari=== 0)  //true  - è effettivamente pari
+console.log(numberNew % 3 === 0) // false - non è divisibile per 3
+console.log(numberNew % numberPari=== 0 && numberNew % 3 === 0) // false - perchè è pari, ma non è divisibile per 3
 
 
 /* --EXTRA-- ESERCIZIO 9 — Triangolo

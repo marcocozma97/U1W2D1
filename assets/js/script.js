@@ -106,7 +106,13 @@ console.log(`${myDontKnow} è di tipo ${typeof myDontKnow}.`)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let mySecondNumber = 5;
+let mySecondString = "5";
 
+// Il primo == indica se sono uguale o di valore o di tipo, quindi vero. Il secondo === indica se sono uguali sia di valore che ti tipo e quindi è giusto sia falso.
+
+console.log(mySecondNumber == mySecondString) //true
+console.log(mySecondNumber === mySecondString)  //false
 
 
 /* ESERCIZIO 7 — Conversioni implicite

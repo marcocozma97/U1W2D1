@@ -68,6 +68,10 @@ console.log(`Cinque anni fa avevo ${annoPassato - annoNascita} anni.`)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let eta = 28;
+const etaConferma = 18;
+
+console.log(`Età: ${eta} - Maggiorenne: ${eta >= etaConferma}`)
 
 /* ESERCIZIO 5 — Tipo del valore
    Cinque variabili: una string, una number, una boolean, una null, una undefined.

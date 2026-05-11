@@ -81,6 +81,21 @@ console.log(`Età: ${eta} - Maggiorenne: ${eta >= etaConferma}`)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let myString = String('Testo');
+console.log(`${myString} è di tipo ${typeof myString}.`)
+
+let myNumber = Number(29);
+console.log(`${myNumber} è di tipo ${typeof myNumber}.`)
+
+let myBoolean = Boolean(true);
+console.log(`${myBoolean} è di tipo ${typeof myBoolean}.`)
+
+// ritorna Object, perchè null viene considerato, come un sistema di valori non univoco (appunto object)
+let myNot = null;
+console.log(`${myNot} è di tipo ${typeof myNot}.`)
+
+let myDontKnow;
+console.log(`${myDontKnow} è di tipo ${typeof myDontKnow}.`)
 
 /* ESERCIZIO 6 — === vs ==
    numero = 5
@@ -90,6 +105,8 @@ console.log(`Età: ${eta} - Maggiorenne: ${eta >= etaConferma}`)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
 
 
 /* ESERCIZIO 7 — Conversioni implicite

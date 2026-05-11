@@ -161,9 +161,11 @@ console.log(numberNew % 2 === 0 && numberNew % 3 === 0) // false - perchè è pa
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const a = 13;
-const b = 10;
-const c = 13;
+let a = 13;
+let b = 10;
+let c = 13;
+
+const perimetro = a + b + c;
 
 console.log(a + b + c)   //perimetro
 

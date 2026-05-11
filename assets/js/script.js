@@ -81,13 +81,13 @@ console.log(`Età: ${eta} - Maggiorenne: ${eta >= etaConferma}`)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let myString = String('Testo');
+let myString = 'Testo';
 console.log(`${myString} è di tipo ${typeof myString}.`)
 
-let myNumber = Number(29);
+let myNumber = 29;
 console.log(`${myNumber} è di tipo ${typeof myNumber}.`)
 
-let myBoolean = Boolean(true);
+let myBoolean = true;
 console.log(`${myBoolean} è di tipo ${typeof myBoolean}.`)
 
 // ritorna Object, perchè null viene considerato, come un sistema di valori non univoco (appunto object)

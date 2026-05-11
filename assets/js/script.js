@@ -126,6 +126,15 @@ console.log(mySecondNumber === mySecondString)  //false
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+// "5" + 3 avrà come risultato 53
+// "5" - 3 avrà come risultato 2
+// true + 1 avrà come risultato NaN
+// "10" * "2" avrà come risultato 20
+
+console.log("5" + 3);
+console.log("5" - 3);
+console.log(true + 1);
+console.log("10" * "2");
 
 /* ESERCIZIO 8 — Classificazione numero
    Variabile "n".

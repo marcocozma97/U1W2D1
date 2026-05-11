@@ -14,9 +14,9 @@ REGOLE
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 const nome = 'Marco';
-const cognome ='Cozma';
+const cognome = 'Cozma';
 
-console.log(`Ciao, mi chiamo ${nome} ${cognome}`);
+console.log(`Ciao, mi chiamo ${nome} ${cognome}.`);
 
 /* ESERCIZIO 2 — Calcolatrice base
    Due numeri "a" e "b".
@@ -26,15 +26,15 @@ console.log(`Ciao, mi chiamo ${nome} ${cognome}`);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let a = '10';
-let b = '3';
+let a = 10;
+let b = 3;
 
-console.log(10 + 3);
-console.log(10 - 3);
-console.log(10 * 3);
-console.log(10 / 3);
-console.log(10 % 3);
-console.log(10 ** 3);
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
+console.log(a ** b);
 
 /* ESERCIZIO 3 — Età nel tempo
    const annoNascita (scegli un anno).
@@ -44,6 +44,20 @@ console.log(10 ** 3);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+
+const annoNascita = 1997;
+const annoCorrente = 2026;
+
+console.log(`Oggi ho ${annoCorrente - annoNascita} anni.`);
+
+const annoFuturo = 2036;
+
+console.log(`Tra dieci anni avrò ${annoFuturo - annoNascita} anni.`);
+
+const annoPassato = 2021;
+
+console.log(`Cinque anni fa avevo ${annoPassato - annoNascita} anni.`)
 
 
 /* ESERCIZIO 4 — Maggiorenne?

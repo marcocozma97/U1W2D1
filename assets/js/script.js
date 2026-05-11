@@ -13,6 +13,10 @@ REGOLE
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const nome = 'Marco';
+const cognome ='Cozma';
+
+console.log(`Ciao, mi chiamo ${nome} ${cognome}`);
 
 /* ESERCIZIO 2 — Calcolatrice base
    Due numeri "a" e "b".

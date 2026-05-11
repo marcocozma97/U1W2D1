@@ -26,15 +26,15 @@ console.log(`Ciao, mi chiamo ${nome} ${cognome}.`);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let a = 10;
-let b = 3;
+let number1 = 10;
+let number2 = 3;
 
-console.log(a + b);
-console.log(a - b);
-console.log(a * b);
-console.log(a / b);
-console.log(a % b);
-console.log(a ** b);
+console.log(number1 + number2);
+console.log(number1 - number2);
+console.log(number1 * number2);
+console.log(number1 / number2);
+console.log(number1 % number2);
+console.log(number1 ** number2);
 
 /* ESERCIZIO 3 — Età nel tempo
    const annoNascita (scegli un anno).
@@ -162,3 +162,27 @@ console.log(numberNew % numberPari=== 0 && numberNew % 3 === 0) // false - perch
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+const a = 13;
+const b = 10;
+const c = 13;
+
+console.log(a + b + c)   //perimetro
+
+function classificaTriangolo(a, b, c) {
+
+  // Classificazione
+  if (a === b && b === c) {
+    return "Equilatero";
+  } else if (a === b || b === c || a === c) {
+    return "Isoscele";
+  } else {
+    return "Scaleno";
+  }
+}
+
+// Chiamata funzione
+console.log(classificaTriangolo(13, 10, 13))  //isoscele
+
+//Stampa finale
+console.log(`Triangolo ${classificaTriangolo(13, 10, 13)}, perimetro ${a + b + c}.`)
